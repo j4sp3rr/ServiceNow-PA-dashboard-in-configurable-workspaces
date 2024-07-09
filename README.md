@@ -15,7 +15,7 @@ Within Configurable workspaces it's possible to add a **Platform** analytics pag
 
 ## Why make these modifications
 As of the Washington release when a visualization is set to `Go to Data` this goes to CORE UI and does not open a workspace embedded list [as noted here](https://docs.servicenow.com/bundle/washingtondc-now-intelligence/page/use/par-for-workspace/concept/dv-chart-interactions.html#visualization-drilldown-in-config-ws).
-We were confused by this as this previously worked in our Utah instances where we make custom workspaces for example.
+We were confused by this as this previously worked in our Utah instances where we made custom workspaces with PA dashboards for example.
 
 Upon further investigation however it seemed that for some PA dashboards intergrated within pages (Admin dashboard within /nav/ui) the ability to redirect elsewhere was retained succesfully.
 We discovered that was because this dashboard had a diffferent action attached to the Dashboard widget clicked event in UI Builder.
