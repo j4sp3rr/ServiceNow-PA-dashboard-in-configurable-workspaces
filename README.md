@@ -21,6 +21,8 @@ Upon further investigation however it seemed that for some PA dashboards intergr
 We discovered that was because this dashboard had a diffferent action attached to the Dashboard widget clicked event in UI Builder.
 In an effort to retain functionality of being able to open PA indicators/reports within a workspace (SOW in this case) We've set out to replicate this functionality for the time being until Service Now officially adresses this issue.
 
+## Repository purpose
+
 This github repository serves to allow quick access to the scripts and explanations needed to set up the redirects for PA dashboards to stay within a workspace.
 This was built with SOW in mind but should work for other workspaces, you might need to modify the redirection script in some ways however.
 The respository also assumes some knowledge about workspaces, ui builder, and how they tie together.
