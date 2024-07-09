@@ -10,7 +10,7 @@ Within Configurable workspaces it's possible to add a **Platform** analytics pag
 1. Documentation and Configuration on how to create and modify a full page PA dashboard display
 2. Documentation and configuration on how to create a KPI Details page to handle whenever a user clicks on a KPI within a PA dashboard
 
-## Bonus content
+### Bonus content
 1.  Documentation and configuration on how to add a PA Dashboard as a component to a page rather than a seperate page.
 
 ## Why make modifications
