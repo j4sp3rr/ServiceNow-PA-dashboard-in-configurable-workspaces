@@ -25,3 +25,7 @@ We were confused by this as this previously worked in our Utah instances where w
 Upon further investigation however it seemed that for some PA dashboards intergrated within pages (Admin dashboard within /nav/ui) the ability to redirect elsewhere was retained succesfully.
 We discovered that was because this dashboard had a diffferent action attached to the Dashboard widget clicked event in UI Builder.
 In an effort to retain functionality of being able to open PA indicators/reports within a workspace (SOW in this case) We've set out to replicate this functionality for the time being until Service Now officially adresses this issue.
+
+## My dashboards don't show up in my workspace
+This is a more general issue, but if you're trying to use a PA dashboard within a workspace please make sure your dashboard is shared with that workspace.
+You will need to share your dashboard with evevry workspace yo uwant to use it in within Dashboard visibility within he dashboard's details.
