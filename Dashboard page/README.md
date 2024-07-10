@@ -32,7 +32,7 @@ After using the template some elements need to be modified to fit our purpose, t
 
 #### Config
 
-Within the config tab of the dashboard component the option `Use as embedded` should be enabled, besides that you should check if the following fields are filled accordingly
+Within the config tab of the dashboard component the options `Use default redirections` should be disabled and `Use as embedded` should be enabled, besides that you should check if the following fields are filled accordingly
 
 | Field                   | Value                                                    |
 | ----------------------- | -------------------------------------------------------- |
