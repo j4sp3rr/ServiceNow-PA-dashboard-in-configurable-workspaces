@@ -7,6 +7,17 @@ You will not need to add/modify any parameters, leave these as default.
 
 **Scope**: Please note that although you can make these pages in any scope it is recommended to pick an appropriate scope for your workspace. In this case Service Operations Workspace Core was chosen.
 
+## Notes for instances on older releases than washington
+On our Utah instances we did not have the new dashboard template yet in UIB just the legacy template, if this happens you will need to make some modifications, namely:
+
+- Copy the contents of the base page rather than using the original page
+- After creating the dashboard page you will need to add some optional parameters to the settings under general
+  - sysId
+  - tabSysId
+  - filter
+  - edit
+  - element
+
 ## Making the dashboard page visible in the sidebar
 
 To make sure your Dashboard page is accesible in your workspace's sidebar you need to add it to the Side navigation.
