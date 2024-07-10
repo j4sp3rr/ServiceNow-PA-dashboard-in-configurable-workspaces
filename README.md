@@ -4,6 +4,7 @@ Within Configurable workspaces it's possible to add a **Platform** analytics pag
 This github repository serves to allow quick access to the scripts and explanations needed to set up the redirects for PA dashboards to stay within a workspace.
 This was built with SOW in mind but should work for other workspaces, you might need to modify the redirection script in some ways however.
 The respository also assumes some knowledge about workspaces, ui builder, and how they tie together.
+This repository was built based on a Washington PDI, if you are on a different family release some things may be diffferent.
 
 ## Disclaimer
 1. **Use at your own Risk**: Please thoroughly review the code before implementing it in your ServiceNow instances.
