@@ -5,6 +5,8 @@ Unfortunately there is no template for this so we'll need to make it manually fr
 
 ## 1. Page creation
 
+**Scope**: Please note that although you can make these pages in any scope it is recommended to pick an appropriate scope for your workspace. In this case Service Operations Workspace Core was chosen.
+
 Create a new page and select `Create from scratch instead` in the top right
 Choose and page name you'd like but set the url path to `kpi_details` to make sure our script from the PA Dashboard page works (if you need to use a different url path make sure to change it there as well.)
 For parameters set up the following:
