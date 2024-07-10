@@ -34,13 +34,13 @@ The fields displayed below should be set up as data so we can enter the value as
 
 #### KPI Config
 
-| Field      | Value                     |
-| ---------- | ------------------------- |
-| Indicator  | @context.props.uuid       |
-| Breakdowns | @context.props.breakdowns |
-| Aggregate  | @context.props.aggregate  |
-| Domain     | @context.props.domain     |
-| Side panel | @context.props.panel      |
+| Field                               | Value                     |
+| ----------------------------------- | ------------------------- |
+| Indicator                           | @context.props.uuid       |
+| Breakdowns                          | @context.props.breakdowns |
+| Aggregate                           | @context.props.aggregate  |
+| Domain                              | @context.props.domain     |
+| Side panel _(washington and later)_ | @context.props.panel      |
 
 #### Date
 
