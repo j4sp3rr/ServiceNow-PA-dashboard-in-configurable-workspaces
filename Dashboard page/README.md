@@ -35,12 +35,12 @@ After using the template some elements need to be modified to fit our purpose, t
 
 Within the config tab of the dashboard component the options `Use default redirections` should be disabled and `Use as embedded` should be enabled, besides that you should check if the following fields are filled accordingly
 
-| Field                              | Value                                                    |
-| ---------------------------------- | -------------------------------------------------------- |
-| Tab Sys id                         | @context.props.tabSysId                                  |
-| Default Dashboard                  | _Blank_ **or** any dashboard you want to show by default |
-| Shareable Filter Sys ID            | @context.props.filter                                    |
-| Global filters _(washington only)_ | @context.props.unifiedFilters                            |
+| Field                                   | Value                                                    |
+| --------------------------------------- | -------------------------------------------------------- |
+| Tab Sys id                              | @context.props.tabSysId                                  |
+| Default Dashboard                       | _Blank_ **or** any dashboard you want to show by default |
+| Shareable Filter Sys ID                 | @context.props.filter                                    |
+| Global filters _(washington and later)_ | @context.props.unifiedFilters                            |
 
 #### Events
 
