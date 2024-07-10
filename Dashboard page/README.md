@@ -5,6 +5,8 @@ Servicenow provides the option to make a dashboard page from a template within t
 Give the page and the variant any name/URL path you prefer.
 You will not need to add/modify any parameters, leave these as default.
 
+**Scope**: Please note that although you can make these pages in any scope it is recommended to pick an appropriate scope for your workspace. In this case Service Operations Workspace Core was chosen.
+
 ## Making the dashboard page visible in the sidebar
 
 To make sure your Dashboard page is accesible in your workspace's sidebar you need to add it to the Side navigation.
