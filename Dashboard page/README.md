@@ -8,6 +8,7 @@ You will not need to add/modify any parameters, leave these as default.
 **Scope**: Please note that although you can make these pages in any scope it is recommended to pick an appropriate scope for your workspace. In this case Service Operations Workspace Core was chosen.
 
 ## Notes for instances on older releases than washington
+
 On our Utah instances we did not have the new dashboard template yet in UIB just the legacy template, if this happens you will need to make some modifications, namely:
 
 - Copy the contents of the base page rather than using the original page
@@ -34,12 +35,12 @@ After using the template some elements need to be modified to fit our purpose, t
 
 Within the config tab of the dashboard component the options `Use default redirections` should be disabled and `Use as embedded` should be enabled, besides that you should check if the following fields are filled accordingly
 
-| Field                   | Value                                                    |
-| ----------------------- | -------------------------------------------------------- |
-| Tab Sys id              | @context.props.tabSysId                                  |
-| Default Dashboard       | _Blank_ **or** any dashboard you want to show by default |
-| Shareable Filter Sys ID | @context.props.filter                                    |
-| Global filters          | @context.props.unifiedFilters                            |
+| Field                              | Value                                                    |
+| ---------------------------------- | -------------------------------------------------------- |
+| Tab Sys id                         | @context.props.tabSysId                                  |
+| Default Dashboard                  | _Blank_ **or** any dashboard you want to show by default |
+| Shareable Filter Sys ID            | @context.props.filter                                    |
+| Global filters _(washington only)_ | @context.props.unifiedFilters                            |
 
 #### Events
 
